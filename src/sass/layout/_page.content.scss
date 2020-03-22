@@ -1,0 +1,63 @@
+// Page: Content
+// -----------------------------------------------------------------------------
+.block--link-to-specific-content {
+  width: 48%;
+  margin: 50px auto 0 auto;
+
+  &:nth-child(1) {
+    margin-top: 0;
+  }
+
+  & > h2 {
+    text-align: center;
+  }
+}
+
+.link-content-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  & > a {
+    color: black;
+    text-decoration: none;
+    margin-top: 20px;
+
+    &:hover {
+      transition: 0.3s ease;
+      color: #8e929c;
+    }
+  }
+}
+
+
+
+.block--views-block--all-books-block-1 {
+  width: 48%;
+  margin: 50px auto 0 auto;
+
+  & > h2 {
+    text-align: center;
+  }
+}
+
+.main-books-view {
+  display: flex;
+  flex-wrap: wrap;
+
+  & > .views-row {
+    width: 23%;
+    margin-left: 10px;
+    &>.views-field-title>.field-content>a{
+      color: black;
+    }
+  }
+}
+.views-field-field-books-author{
+  margin-top: -18px;
+  padding-bottom: 20px;
+}
+.views-field-field-books-date{
+  margin-top: -15px;
+  padding-bottom: 25px;
+}
